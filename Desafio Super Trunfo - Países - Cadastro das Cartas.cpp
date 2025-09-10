@@ -37,5 +37,33 @@ int main() {
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos2);
 
+    // Exibição formatada
+    printf("\n\n===== CARTAS CADASTRADAS =====\n");
+
+    printf("\n+----------------------------+\n");
+    printf("|       SUPER TRUNFO         |\n");
+    printf("|         PAISES             |\n");
+    printf("+----------------------------+\n");
+    printf("| Codigo: %-5s              |\n", codigo1);
+    printf("| Populacao: %-10d      |\n", populacao1);
+    printf("| Area: %-10.2f km²   |\n", area1);
+    printf("| PIB: %-10.2f bi     |\n", pib1);
+    printf("| Pontos Turisticos: %-3d   |\n", pontosTuristicos1);
+    printf("+----------------------------+\n");
+
+    printf("\n+----------------------------+\n");
+    printf("|       SUPER TRUNFO         |\n");
+    printf("|         PAISES             |\n");
+    printf("+----------------------------+\n");
+    printf("| Codigo: %-5s              |\n", codigo2);
+    printf("| Populacao: %-10d      |\n", populacao2);
+    printf("| Area: %-10.2f km²   |\n", area2);
+    printf("| PIB: %-10.2f bi     |\n", pib2);
+    printf("| Pontos Turisticos: %-3d   |\n", pontosTuristicos2);
+    printf("+----------------------------+\n");
+
+    return 0;
+}
+
 
 
