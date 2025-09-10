@@ -24,5 +24,18 @@ int main() {
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
+    // Cadastro da Carta 2
+    printf("\n=== Cadastro da Carta 2 ===\n");
+    printf("Digite o codigo da cidade (ex: B02): ");
+    scanf("%s", codigo2);
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao2);
+    printf("Digite a area (em km²): ");
+    scanf("%f", &area2);
+    printf("Digite o PIB (em bilhoes): ");
+    scanf("%f", &pib2);
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d", &pontosTuristicos2);
+
 
 
